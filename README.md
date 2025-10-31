@@ -12,12 +12,16 @@ As much as I like programming, the syntax and minutia get in the way of the bigg
 
 I'd been testing ChatGPT for vibecoding. It stinks.
 Claude.ai has a good reputation so I tried it. It's pretty nice, actually.
+This repository has the created routine and some sanitized files to illustrate its use, including the entire claude.ai vibecoding session.
+(Oddly enough, the html claude.ai sends to your browser contains a LOT of duplicated lines at the beginning. You'd think Anthropic would have made it cleaner...)
 
 This particular tool is quite simple and I could have created it entirely by hand but why create extra work and mental cost if it can be vibecoded?
 
 I thought, at best, claude.ai would give me a basic framework and I'd have to debug and hand-code parts.
 
 It turns out, claude.ai created the whole thing!
+
+If you read the vibecoding history, you'll see claude.ai initally wanted to use python. I avoid python whenever possible because (basic) powershell is already part of Windows and awk is a battle-proven, small, safe, single-file executable.
 
 I've added the way I've integrated this into Windows' file manager context menu.
 Right-click on a folder's contents and a sub-menu titled, "All Files" is present. Inside that is the option to run this conversion.
