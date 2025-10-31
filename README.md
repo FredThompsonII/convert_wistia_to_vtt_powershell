@@ -27,7 +27,9 @@ I've added the way I've integrated this into Windows' file manager context menu.
 Right-click on a folder's contents and a sub-menu titled, "All Files" is present. Inside that is the option to run this conversion.
 
 folder json to vtt powershell.bat and convert_wistia_to_vtt_powershell.bat must be in folder "C:\Portable\- Linked\misc"
+
 Closed Caption Icon.ico must be in folder "C:\Portable\- Linked\Graphics\Icons"
+
 Context Menu - Configure.reg creates the context menu entry - BE CAREFUL! it's just there as an example. If you already have a sub-menu titled "All Files", this reg file will replace it.
 
 You can also place convert_wistia_to_vtt_powershell.bat in the folder which contains Wistia .json subtitle file then run it.
